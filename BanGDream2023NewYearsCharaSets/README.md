@@ -17,7 +17,8 @@
             "nodeTextColor" : "#000000",
             "fontFamily": "arial",
             "fontSize": "25px",
-            "background":"FFFFFF",
+            "background":"#FFFFFF",
+            "primaryTextColor":"#000000"
         }
     } 
 }%%
