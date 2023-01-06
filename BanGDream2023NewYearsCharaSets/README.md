@@ -6,53 +6,24 @@
 
 ```mermaid
 %%{
-  init: { 
-    "flowchart": {
-      "useMaxWidth": false
-    },
-    "theme": "default",
-    "themeVariables": {
-        "nodeBorder" : "#000000",
-        "mainBkg" : "#BBBBBB",
-        "nodeTextColor" : "#000000",
-        "fontFamily": "arial",
-        "fontSize": "20px"
-     }
-   } 
+    init: { 
+        "flowchart": {
+            "useMaxWidth": true
+        },
+        "theme": "default",
+        "themeVariables": {
+            "nodeBorder" : "#000000",
+            "mainBkg" : "#BBBBBB",
+            "nodeTextColor" : "#000000",
+            "fontFamily": "arial",
+            "fontSize": "25px"
+        }
+    } 
 }%%
 
 flowchart LR; 
 
-subgraph .
-    direction LR;
-    Poppin'Party;Afterglow;Paspale;Roselia;HelloHappyWorld;Morfonica;RAS;
-end
-style . fill:#FFFFFF,stroke:#000000,stroke-width:5px;
-
 %%%% General Request Group
-
-    subgraph Poppin'Party
-        1;2;3;4;5;
-    end
-    subgraph Afterglow
-        6;7;8;9;10;
-    end
-    subgraph Paspale
-        11;12;13;14;15;
-    end
-    subgraph Roselia
-        16;17;18;19;20;
-    end
-    subgraph HelloHappyWorld
-        21;22;23;24;25;
-    end
-    subgraph Morfonica
-        26;27;28;29;30;
-    end
-    subgraph RAS
-        31;32;33;34;35;
-    end
-
     style Poppin'Party fill:#FFDDEE,stroke:#FF3377,stroke-width:3px;
     style Roselia fill:#DDDDFF,stroke:#3344AA,stroke-width:3px;
     style Afterglow fill:#FFDDDD,stroke:#E53344,stroke-width:3px;
@@ -123,7 +94,7 @@ style . fill:#FFFFFF,stroke:#000000,stroke-width:5px;
     style 29 fill:#EE7788,stroke:#000000,stroke-width:5px;
     30((" .<br>_Yashio Rui_ <br> 无感情小提琴 <br> 八潮 瑠唯 <br>."));
     style 30 fill:#669988,stroke:#000000,stroke-width:5px;
-    31((" .<br>Wakana Rei_ <br> 打工族大姐头 <br> 和奏 瑞依 <br>."));
+    31((" .<br>_Wakana Rei_ <br> 打工族大姐头 <br> 和奏 瑞依 <br>."));
     style 31 fill:#CC0000,stroke:#000000,stroke-width:5px;
     32((" .<br>_Asahi Rokka_ <br> 吉他之狂战士 <br> 朝日 六花 <br>."));
     style 32 fill:#AAEE22,stroke:#000000,stroke-width:5px;
@@ -135,60 +106,140 @@ style . fill:#FFFFFF,stroke:#000000,stroke-width:5px;
     style 35 fill:#00BBFF,stroke:#000000,stroke-width:5px;
 
 %%%% General Connection
-    %% Added
-    1====|"猫王引诱"|16;
-    1====|"电波一致"|21;
+    231(幼驯染二号);
+    520(学生会);
+    616(对邦达人);
+    718(便利店打工人);
+    827(社交牛人);
+    919(姐妹一号);
+    1015(咖啡店打工人);
+    1017(金屋藏娇);
+    1217(姐妹二号);
+    1422(戏剧社);
+    2213(幼驯染三号);
+    2632(猫王粉丝);
+    0104(面包香味);
+    0105(闪闪发光心动不已);
+    0203(小兔子脱逃中);
+    0304(巧克力螺);
+    0607(幼驯染一号);
+    0809(一呼零应);
+    1816(芥末饼干);
+    2019(游戏大师);
+    1112(努力和天才);
+    1113(实现梦想);
+    1415(大和之魂);
+    2123(健将和金主);
+    2125(真傻假傻);
+    2423(知不知道);
+    2425(平凡就好);
+    2629(花蕾绽放);
+    2730(静观风波);
+    2829(青春开幕);
+    3028(真理暴击);
+    3135(妈和孩子);
+    3332(双人乖坐);
+    3433(两条小狗);
+    3435(角色扮演);
 
+%%%% Click stuff
+    click 231 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0246.PNG" "...";
+    click 520 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0247.PNG" "...";
+    click 616 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0248.PNG" "...";
+    click 718 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0249.PNG" "...";
+    click 827 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0250.PNG" "...";
+    click 919 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0251.PNG" "...";
+    click 1015 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0252.PNG" "...";
+    click 1017 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0253.PNG" "...";
+    click 1217 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0254.PNG" "...";
+    click 1422 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0255.PNG" "...";
+    click 2213 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0257.PNG" "...";
+    click 2632 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0258.PNG" "...";
+    click 0104 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0259.PNG" "...";
+    click 0105 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0260.PNG" "...";
+    click 0203 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0261.PNG" "...";
+    click 0304 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0262.PNG" "...";
+    click 0607 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0263.PNG" "...";
+    click 0809 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0264.PNG" "...";
+    click 1816 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0265.PNG" "...";
+    click 2019 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0266.PNG" "...";
+    click 1112 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0267.PNG" "...";
+    click 1113 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0268.PNG" "...";
+    click 1415 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0269.PNG" "...";
+    click 2123 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0270.PNG" "...";
+    click 2125 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0271.PNG" "...";
+    click 2423 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0272.PNG" "...";
+    click 2425 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0273.PNG" "...";
+    click 2629 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0274.PNG" "...";
+    click 2730 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0276.PNG" "...";
+    click 2829 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0277.PNG" "...";
+    click 3028 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0278.PNG" "...";
+    click 3135 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0279.PNG" "...";
+    click 3332 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0280.PNG" "...";
+    click 3433 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0281.PNG" "...";
+    click 3435 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0285.PNG" "...";
+
+%%%% General Connection
     %% Crossed
-    2===|"幼驯染二号"|31;
-    5===|"学生会"|20;
-    6===|"对邦达人"|16;
-    7===|"便利店打工人"|18;
-    8===|"社交网站开刷"|27;
-    9===|"亲姐妹"|19;
-    10===|"咖啡店打工人"|15;
-    10===|"金屋藏娇"|17;
-    12===|"我们也是姐妹"|17;
-    14===|"戏剧社"|22;
-    22===|"幼驯染三号"|13; 
-    26===|"猫王粉丝"|32;
-     
-    %% start of poppinparty
-    1---|"面包香味"|4;
-    1---|"krkr-dkdk"|5;
-    2---|"小兔子脱逃中"|3;
-    3---|"巧克力螺"|4;
+    2===231===31;
+    5===520===20;
+    6===616===16;
+    7===718===18;
+    8===827===27;
+    9===919===19;
+    10===1015===15;
+    10===1017===17;
+    12===1217===17;
+    14===1422===22;
+    22===2213===13; 
+    26===2632===32;
 
-    %% start of Afterglow
-    6---|"幼驯染一号"|7;
-    8---|"一呼零应"|9;
+    subgraph Poppin'Party
+        1---0104---4;
+        1---0105---5;
+        2---0203---3;
+        3---0304---4;
+    end
 
-    %% start of Paspale
-    11---|"努力和天才"|12;
-    11---|"实现梦想"|13;
-    14---|"大和之魂"|15;
+    subgraph Afterglow
+        6---0607---7;
+        8---0809---9;
+        10
+    end
 
-    %% start of Roselia
-    18---|"芥末饼干"|16;
-    20---|"游戏大师"|19;
+    subgraph Roselia
+        18---1816---16;
+        20---2019---19;
+        17
+    end
 
-    %% start of HelloHappyWorld
-    21---|"健将和金主"|23;
-    21---|"真傻假傻"|25;
-    24---|"知不知道"|23;
-    24---|"平凡就好"|25;
+    subgraph Paspale
+        11---1112---12;
+        11---1113---13;
+        14---1415---15;
+    end
 
-    %% start of Morfonica
-    26---|"花蕾绽放"|29;
-    27---|"静观风波"|30;
-    28---|"青春开幕"|29;
-    30---|"真理暴击"|28;
+    subgraph HelloHappyWorld
+        21---2123---23;
+        21---2125---25;
+        24---2423---23;
+        24---2425---25;
+        22
+    end
+
+    subgraph Morfonica
+        26---2629---29;
+        27---2730---30;
+        28---2829---29;
+        30---3028---28;
+    end
+
+    subgraph RAS
+        31---3135---35;
+        33---3332---32;
+        34---3433---33;
+        34---3435---35;
+    end
+
     
-    %% start of RAS
-    31---|"妈和孩子"|35;
-    33---|"双人乖坐"|32;
-    34---|"两条小狗"|33;
-    34---|"角色扮演"|35;
-
-
 ```
