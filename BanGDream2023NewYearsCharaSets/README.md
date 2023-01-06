@@ -8,7 +8,7 @@
 %%{
     init: { 
         "flowchart": {
-            "useMaxWidth": true
+            "useMaxWidth": false
         },
         "theme": "default",
         "themeVariables": {
