@@ -13,10 +13,11 @@
         "theme": "default",
         "themeVariables": {
             "nodeBorder" : "#000000",
-            "mainBkg" : "#BBBBBB",
+            "mainBkg" : "#FFFFFF",
             "nodeTextColor" : "#000000",
             "fontFamily": "arial",
-            "fontSize": "25px"
+            "fontSize": "25px",
+            "background":"FFFFFF",
         }
     } 
 }%%
@@ -141,43 +142,6 @@ flowchart LR;
     3332(双人乖坐);
     3433(两条小狗);
     3435(角色扮演);
-
-%%%% Click stuff
-    click 231 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0246.PNG" "...";
-    click 520 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0247.PNG" "...";
-    click 616 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0248.PNG" "...";
-    click 718 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0249.PNG" "...";
-    click 827 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0250.PNG" "...";
-    click 919 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0251.PNG" "...";
-    click 1015 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0252.PNG" "...";
-    click 1017 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0253.PNG" "...";
-    click 1217 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0254.PNG" "...";
-    click 1422 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0255.PNG" "...";
-    click 2213 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0257.PNG" "...";
-    click 2632 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0258.PNG" "...";
-    click 0104 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0259.PNG" "...";
-    click 0105 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0260.PNG" "...";
-    click 0203 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0261.PNG" "...";
-    click 0304 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0262.PNG" "...";
-    click 0607 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0263.PNG" "...";
-    click 0809 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0264.PNG" "...";
-    click 1816 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0265.PNG" "...";
-    click 2019 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0266.PNG" "...";
-    click 1112 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0267.PNG" "...";
-    click 1113 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0268.PNG" "...";
-    click 1415 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0269.PNG" "...";
-    click 2123 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0270.PNG" "...";
-    click 2125 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0271.PNG" "...";
-    click 2423 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0272.PNG" "...";
-    click 2425 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0273.PNG" "...";
-    click 2629 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0274.PNG" "...";
-    click 2730 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0276.PNG" "...";
-    click 2829 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0277.PNG" "...";
-    click 3028 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0278.PNG" "...";
-    click 3135 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0279.PNG" "...";
-    click 3332 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0280.PNG" "...";
-    click 3433 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0281.PNG" "...";
-    click 3435 "https://raw.githubusercontent.com/DavidSciMeow/BanGDreamStuffs/main/imgs/IMG_0285.PNG" "...";
 
 %%%% General Connection
     %% Crossed
